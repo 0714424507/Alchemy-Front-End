@@ -107,3 +107,22 @@ body {
   filter: blur(2.5px);
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
+.slogan{
+height: 35px;
+left: 337px;
+top: 311px;
+margin-left: 60%;
+margin-top: 19%;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 200;
+font-size: 40px;
+line-height: 35px;
+
+color: #000000;
+
+
+}
+
