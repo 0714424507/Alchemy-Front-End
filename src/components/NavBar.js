@@ -5,7 +5,8 @@ function NavBar() {
   return (
     <nav className="navbar">
       <ul className="nav-links">
-       <h1 class="header">Alchemy</h1>
+      <h2 className='top'>A L C H E M Y </h2>
+      <h2 className='bottom'>A L C H E M Y</h2>
         <li>
           <Link to="/">Home</Link>
         </li>
