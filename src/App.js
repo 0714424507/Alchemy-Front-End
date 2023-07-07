@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Routes component
 import Home from './components/Home';
 import Items from './components/Items';
+import Signup from './components/Signup';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes> {/* Wrap Routes around your routes */}
           <Route path="/" element={<Home />} />
           <Route path="/Items" element={<Items />} />
+          <Route path="/Signup" element={<Signup/>} />
         </Routes>
       </div>
     </Router>
