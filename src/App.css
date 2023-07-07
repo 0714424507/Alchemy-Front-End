@@ -47,12 +47,13 @@ body {
   height: 15px;
   left: 51px;
   top: 21px;
+  margin-top: -10px;
   font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
   line-height: 18px;
-  color: #76593F;
+  color: white;
   mix-blend-mode: normal;
 }
 .bottom{
@@ -62,13 +63,13 @@ body {
   height: 15px;
   left: 51px;
   top: 56px;
-  margin-top: -5px;
+  margin-top: -25px;
   font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
   line-height: 18px;
-  color: #76593F;
+  color: white;
   mix-blend-mode: normal;
   opacity: 0.3;
   backdrop-filter: blur(2px);
