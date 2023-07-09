@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-function Items() {
+function Items({ addToCart }) {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -9,12 +9,12 @@ function Items() {
 
   const fetchItems = async () => {
     try {
-      const response = await fetch("/items");
+      const response = await fetch('/items');
       if (response.ok) {
         const data = await response.json();
         setItems(data);
       } else {
-        console.error("Failed to fetch items");
+        console.error('Failed to fetch items');
       }
     } catch (error) {
       console.error(error);
@@ -31,13 +31,14 @@ function Items() {
             <div className="item-price">{item.price}$</div>
             <div className="item-size">size: {item.size}</div>
             <div className="item-description">{item.description}</div>
+            <button onClick={() => addToCart(item)} className="add-to-cart-button">
+              Add to Cart
+            </button>
           </div>
         </div>
       ))}
     </div>
   );
-  
-  
 }
 
 export default Items;
