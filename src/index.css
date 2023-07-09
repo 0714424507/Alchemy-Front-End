@@ -15,7 +15,7 @@ code {
 .navbar {
   background-color: #333;
   color: #fff;
-  height: 60px; /* Adjust the height as desired */
+  height: 80px; /* Adjust the height as desired */
 }
 .nav-links {
   display: flex;

@@ -47,12 +47,13 @@ body {
   height: 15px;
   left: 51px;
   top: 21px;
+  margin-top: -10px;
   font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
   line-height: 18px;
-  color: #76593F;
+  color: white;
   mix-blend-mode: normal;
 }
 .bottom{
@@ -62,13 +63,13 @@ body {
   height: 15px;
   left: 51px;
   top: 56px;
-  margin-top: -5px;
+  margin-top: -25px;
   font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
   line-height: 18px;
-  color: #76593F;
+  color: white;
   mix-blend-mode: normal;
   opacity: 0.3;
   backdrop-filter: blur(2px);
@@ -105,4 +106,237 @@ body {
   opacity: 0.2;
   filter: blur(2.5px);
   transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.slogan{
+height: 35px;
+left: 337px;
+top: 311px;
+margin-left: 60%;
+margin-top: 19%;
+
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 200;
+font-size: 40px;
+line-height: 35px;
+
+color: brown;
+
+
+}
+
+
+/* item_css */
+
+.itemlist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.itemlist > .itemlist {
+  width: 300px;
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.item-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.item-name {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.item-price,
+.item-size,
+.item-description {
+  font-size: 16px;
+  margin-bottom: 8px;
+  white-space: pre-wrap;
+}
+
+
+/* signup_css */
+
+
+.signupFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+}
+
+.signupForm h1 {
+  margin-bottom: 20px;
+}
+
+.signupForm label {
+  margin-bottom: 10px;
+}
+
+.signupInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signupButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signupButton:hover {
+  background-color: #0056b3;
+}
+.add-to-cart-button {
+  padding: 12px 24px;
+  background-color: #f3e8d0;
+  color: #333;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.add-to-cart-button:hover {
+  background-color: #e5d2b4;
+}
+
+/* Remove button */
+.remove-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+/* Clear cart button */
+.clear-cart-button {
+  padding: 12px 24px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.clear-cart-button:hover {
+  background-color: #c82333;
+}
+
+/* Cart items display */
+.cart {
+  text-align: center;
+  font-size: 40px;
+}
+
+.cart-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: translateY(-2px);
+}
+
+.cart-item-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.cart-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.cart-item-details {
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.cart-item-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 8px;
+}
+
+.cart-summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.total-price {
+  font-size: 18px;
+  margin-right: 16px;
+  color: #555;
+  font-weight: bold;
 }
