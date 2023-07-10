@@ -27,7 +27,7 @@ const Login = () => {
         setUsername("");
         setPassword("");
         // Redirect to another page, e.g., dashboard
-        navigate("/dashboard");
+        navigate("/Items");
         console.log(response);
       } else {
         console.log("Login failed");
