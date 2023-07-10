@@ -1,35 +1,47 @@
 import React from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-const NavBar = ({ isLoggedIn, handleLogout, cartItemsCount }) => {
-  const navigate = useNavigate();
-
+function NavBar({ cartItemsCount, isLoggedIn, handleLogout }) {
   const handleLogoutClick = () => {
     handleLogout();
-    navigate('/');
   };
 
   return (
-    <nav>
-      <div>
-        <NavLink to="/">Home</NavLink>
-        {!isLoggedIn && (
+    <nav className="navbar">
+      <ul className="nav-links">
+        <h2 className="top">A L C H E M Y</h2>
+        <h2 className="bottom">A L C H E M Y</h2>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        {isLoggedIn ? (
           <>
-            <NavLink to="/Login">Login</NavLink>
-            <NavLink to="/Signup">Signup</NavLink>
+            <li>
+              <Link to="/Wishlist">Wishlist</Link>
+            </li>
+            <li>
+              <button onClick={handleLogoutClick}>Logout</button>
+            </li>
+          </>
+        ) : (
+          <>
+            <li>
+              <Link to="/Login">Login</Link>
+            </li>
+            <li>
+              <Link to="/Signup">Signup</Link>
+            </li>
           </>
         )}
-        {isLoggedIn && (
-          <>
-            <span>Welcome, User!</span>
-            <button onClick={handleLogoutClick}>Logout</button>
-          </>
-        )}
-        <NavLink to="/Items">Items</NavLink>
-        <NavLink to="/Cart">Cart ({cartItemsCount})</NavLink>
-      </div>
+        <li>
+          <Link to="/Items">Shop</Link>
+        </li>
+        <li>
+          <Link to="/Cart">Cart ({cartItemsCount})</Link>
+        </li>
+      </ul>
     </nav>
   );
-};
+}
 
 export default NavBar;
