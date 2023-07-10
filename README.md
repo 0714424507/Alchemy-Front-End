@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# ALCHEMY
+*****
+### Sheila,Ivy,Tom,Humphrey,Faith July 2023 
+****
+## Project Description
+The project's is to an online store that will give customers a place to browse and buy things. The online store will provide a large selection of goods in a variety of categories, including electronics, clothing, home goods, and more. Customers will have a seamless and simple purchasing experience thanks to it.Key features:Product Catalog: The online store will present a wide range of products, each with comprehensive information about them, such as photographs, descriptions, prices, and client feedback.Customer account creation enables users to log in, save preferences, follow orders, and manage profiles. Users can also manage their user accounts.Users will be able to add products to their shopping carts, inspect the contents of their carts, change the quantities, and check out.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+******
 
-## Available Scripts
+## SCREENSHOTS
+********
+## SetUp Instruction
+### Requirements
+* [Lang](lang Url)
+* [Framework](Framework URL)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
+* [Testing Platform](Platform URL)
 
-In the project directory, you can run:
 
-### `npm start`
+### Getting Files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b "branchname")
+- Install the prerequisites
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How To Run It
+>  $ npm install 
+To install all requirements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> $ npm start runserver
+Then run server with the above command
+*****
+## Live Link
+backend github link: https://github.com/seruyara/Alchemy
+*****
+## Dependencies
+- Canvas
+- YouTube
 
-### `npm test`
+*****
+## Technologies Used
+1. ReactJs
+2. CSS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*****
+## Contact Information
+* Email : sheilaseruya@gmail.com
+*****
+## [License](LICENSE)
+MIT License
+Copyright (c) 2023 Sheila,Ivy,Tom,Humphrey,Faith

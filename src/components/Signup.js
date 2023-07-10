@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 const Signup = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -26,8 +25,9 @@ const Signup = () => {
           password,
         }),
       });
-      if (response.ok) {
+      if (response.status === 201) {
         // Handle successful sign-up response
+        console.log("Sign-up successful");
         // Redirect to another page, e.g., dashboard
         navigate('/Home');
         console.log(response);
@@ -38,7 +38,7 @@ const Signup = () => {
       console.log(error);
     }
   };
-
+  
   return (
     <div className="signupFormContainer">
       <h1>Hello</h1>
