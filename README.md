@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Alchemy
+*****
+### Sheila Seruyara, Humphrey Muhuri, Tom Mwanzia, Ivy Marabu and Faith Mwangi : 2023
+****
+## Project Description
+This is an online store application built using Ruby on Rails for the backend and React for the frontend. The application includes various features such as user authentication, product browsing, and cart management.
+******
+## SCREENSHOTS
+- link 1
+- link 2
+********
+## SetUp Instruction
+### Requirements
+* Backend (Ruby on Rails)
+- Ruby: Install Ruby programming language on your system.
+- RubyGems: Ruby package manager, usually comes with Ruby.
+- Bundler: Dependency management tool for Ruby, install using RubyGems.
+- Rails: Ruby on Rails framework, install using RubyGems.
+- Database: Choose and set up a database system supported by Rails, such as PostgreSQL or MySQL.
+* Frontend (React)
+- Node.js: Install Node.js runtime on your system.
+- npm or Yarn: Package managers for Node.js, usually installed with Node.js.
+### Getting Files
+* Clone the repository:  git clone https://github.com/0714424507/Alchemy-Front-End.git
+* Set up the backend :
+- Navigate to the backend: https://github.com/seruyara/Alchemy
+- Install Ruby on Rails and necessary dependencies.
+- Set up the database and run migrations.
+- Start the Rails server.
+* Set up the frontend:
+- Navigate to the frontend directory: https://github.com/0714424507/Alchemy-Front-End/branches
+- Install dependencies: npm install
+* Start the React development server: npm start
+* Open your web browser and visit: http://localhost:3001
+## Dependencies
+- React
+- React Router
+- Axios
+*****
+## Technologies Used
+1. Ruby on Rails
+2. Active Record
+3. React
+4. CSS
+5. HTML
+6. JavaScript
+7. React Router
+8. Axios
+*****
+## Contact Information
+* Email : humphrey.muhuri@student.moringaschool.com, faith.mwangi01@student.moringaschool.com, ivy.marubu@student.moringaschool.com, sheila.mbalo@student.moringaschool.com, tom.mwanzia@student.moringaschool.com
+*****
+## [License](LICENSE)
+MIT License
+Copyright (c) 2023 Sheila Seruyara, Humphrey Muhuri, Ivy Marabu and Faith Mwangi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
