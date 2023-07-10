@@ -52,7 +52,7 @@ This is an online store application built using Ruby on Rails for the backend an
 *****
 ## [License](LICENSE)
 MIT License
-Copyright (c) 2023 Sheila Seruyara, , Tom Mwanzia, Humphrey Muhuri, Ivy Marabu and Faith Mwangi
+Copyright (c) 2023 Sheila Seruyara, ,Humphrey Muhuri, Tom Mwanzia,  Ivy Marabu and Faith Mwangi
 
 
 
