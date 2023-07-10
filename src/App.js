@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Items from './components/Items';
 import Signup from './components/Signup';
 import Cart from './components/Cart';
+import Login from './components/Login';
+import Wishlist from './components/Wishlist';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
