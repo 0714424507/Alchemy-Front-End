@@ -14,7 +14,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       // Make API request to the backend for user sign-up
-      const response = await fetch("/users", {
+      const response = await fetch("/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -29,7 +29,7 @@ const Signup = () => {
       if (response.ok) {
         // Handle successful sign-up response
         // Redirect to another page, e.g., dashboard
-        navigate('/Home');
+        navigate('/Items');
         console.log(response);
       } else {
         console.log('Sign-up failed');
@@ -100,3 +100,4 @@ const Signup = () => {
 };
 
 export default Signup;
+
