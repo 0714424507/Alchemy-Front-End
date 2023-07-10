@@ -1,20 +1,19 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
-const Logout = () => {
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    // Perform logout logic here
-    navigate('/'); // Redirect to home page after logout
+const LogoutForm = ({ handleLogout }) => {
+  const handleLogoutClick = () => {
+    handleLogout();
   };
 
   return (
     <div>
-      <h2>Welcome, User!</h2>
-      <button onClick={handleLogout}>Logout</button>
+      <h2>Logout</h2>
+      <form onSubmit={handleLogoutClick}>
+        <p>Are you sure you want to log out?</p>
+        <button type="submit">Logout</button>
+      </form>
     </div>
   );
 };
 
-export default Logout;
+export default LogoutForm;
