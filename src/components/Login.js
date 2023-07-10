@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import './Login.css'; // Import the CSS file
 
-
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -25,8 +24,10 @@ const Login = () => {
       });
       if (response.ok) {
         // Handle successful login response
+        setUsername("");
+        setPassword("");
         // Redirect to another page, e.g., dashboard
-        navigate('/Items');
+        navigate("/dashboard");
         console.log(response);
       } else {
         console.log("Login failed");
@@ -60,7 +61,6 @@ const Login = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <br />
         <button type="submit" className="loginButton">
           Login
         </button>
