@@ -26,7 +26,7 @@ const Login = () => {
       if (response.ok) {
         // Handle successful login response
         // Redirect to another page, e.g., dashboard
-        navigate('/dashboard');
+        navigate('/Items');
         console.log(response);
       } else {
         console.log("Login failed");
