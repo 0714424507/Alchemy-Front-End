@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function NavBar({ cartItemsCount }) {
+function NavBar({ cartItemsCount, isLoggedIn, handleLogout }) {
+  const handleLogoutClick = () => {
+    handleLogout();
+  };
+
   return (
     <nav className="navbar">
       <ul className="nav-links">
@@ -10,12 +14,25 @@ function NavBar({ cartItemsCount }) {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>
-          <Link to="/Login">Login</Link>
-        </li>
-        <li>
-          <Link to="/Signup">Signup</Link>
-        </li>
+        {isLoggedIn ? (
+          <>
+            <li>
+              <Link to="/Wishlist">Wishlist</Link>
+            </li>
+            <li>
+              <button onClick={handleLogoutClick}>Logout</button>
+            </li>
+          </>
+        ) : (
+          <>
+            <li>
+              <Link to="/Login">Login</Link>
+            </li>
+            <li>
+              <Link to="/Signup">Signup</Link>
+            </li>
+          </>
+        )}
         <li>
           <Link to="/Items">Shop</Link>
         </li>
