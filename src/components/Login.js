@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import './Login.css';
 
 const Login = () => {
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const navigate = useNavigate();
@@ -18,7 +17,7 @@ const Login = () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          email,
+          username,
           password,
         }),
       });
@@ -39,15 +38,15 @@ const Login = () => {
     <div className="loginFormContainer">
       <h1>Login</h1>
       <form className="loginForm" onSubmit={handleLogin}>
-        <label htmlFor="email">Email</label>
+        <label htmlFor="username">Username</label>
         <input
-          type="email"
-          id="email"
+          type="text"
+          id="username"
           className="loginInput"
           required
-          placeholder="Enter email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter username"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
         />
         <label htmlFor="password">Password</label>
         <input
